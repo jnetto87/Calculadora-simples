@@ -29,7 +29,7 @@ calcular.addEventListener("click", function () {
     }
 
     if (typeof resultado === 'number') {
-        resultadoElement.textContent = "O resultado é = " + resultado.toString();
+        resultadoElement.textContent = "O resultado é = " + resultado.toFixed(2);
     } else {
         resultadoElement.textContent = resultado;
     }
