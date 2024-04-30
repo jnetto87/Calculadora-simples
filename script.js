@@ -24,6 +24,10 @@ calcular.addEventListener("click", function () {
         case "/":
             resultado = valorInput1 / valorInput2;
             break;
+
+        case "%":
+            resultado = (valorInput1 * valorInput2) / 100
+            break;
         default:
             resultado = "Operação inválida";
     }
